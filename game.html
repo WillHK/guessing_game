@@ -1,0 +1,18 @@
+<script>
+(function(){
+  var guess;
+  var questions = ["Who is the voice actor for Homer", "What is the name of the only bully with a child", "Who is the news reporter on Channel 6 news"];
+  var answers = ["dan castellaneta", "kearney", "kent brockman"];
+  while(true) {
+    var questionNumber = Math.floor(Math.random() * questions.length);
+    alert("Let's play The Simpsons trivia!");
+    guess = prompt(questions[questionNumber], "Enter your answer here!");
+    if (guess.toLowerCase() === answers[questionNumber]) {
+      alert("Correct!");
+      break;
+    } else {
+      alert("Sorry, that's not right. Try another question!");
+    }
+  }
+})();
+</script>
