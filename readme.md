@@ -11,3 +11,5 @@ We built off of the already existing arrays and added an aspect to the alerts th
 Also, we added a function that removes questions from the array that the user answers correctly.
 
 Finally, we added a picture of Homer eaiting a donut after the user won the game using html and inserting the image tag into the DOM.
+
+Refactored using constructors and prototypes.
