@@ -1,18 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+ <div id="Homer">
+ </div>
 <script>
 (function(){
   var guess;
   var questions = ["Who is the voice actor for Homer", "What is the name of the only bully with a child", "Who is the news reporter on Channel 6 news"];
   var answers = ["dan castellaneta", "kearney", "kent brockman"];
-  while(true) {
+  var numberCorrect = 0;
+  var numberQuestions = questions.length;
+
+  var removeCorrect = function(questionNumber) {
+    questions.splice(questionNumber, 1);
+    answers.splice(questionNumber, 1);
+
+
+  };
+  while(numberCorrect < 3) {
     var questionNumber = Math.floor(Math.random() * questions.length);
-    alert("Let's play The Simpsons trivia!");
+    alert("Let's play The Simpsons trivia! Answer all Question to Win!!!");
     guess = prompt(questions[questionNumber], "Enter your answer here!");
     if (guess.toLowerCase() === answers[questionNumber]) {
-      alert("Correct!");
-      break;
+
+    numberCorrect++;
+
+    alert("Correct! " + (numberQuestions - numberCorrect) + " left");
+    removeCorrect(questionNumber);
     } else {
-      alert("Sorry, that's not right. Try another question!");
+      alert("Sorry, that's not right. " + (numberQuestions - numberCorrect) + " left");
     }
-  }
+
+  };
+  alert("Congratulations! You Win!");
+
+  document.getElementById('Homer').innerHTML = "<img src = 'http://static.fjcdn.com/comments/Home+has+hidden+depths+unfortunately+they+are+filled+with+donuts+_7cb6c1d35d38ec82f99058af4b42f3b5.jpg'></img>"
 })();
 </script>
+</body>
+</html>
