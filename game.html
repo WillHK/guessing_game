@@ -41,7 +41,7 @@
   console.log(simpsonsTrivia);
   while (simpsonsTrivia.numberCorrect < 3) {
     alert("Let's play The Simpsons trivia! Answer all Question to Win!!!");
-      simpsonsTrivia.randomQuestion();
+      simpsonsTrivia.questionNumber = simpsonsTrivia.randomQuestion();
       simpsonsTrivia.askQuestion();
   }
   alert("Congratulations! You Win!");
