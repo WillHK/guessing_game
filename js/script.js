@@ -104,6 +104,7 @@ var questions = [
 var Game = function (questions) {
     this.questions = questions;
     this.numberCorrect = 0;
+    this.numberWrong = 0;
     this.numberQuestions = questions.length;
     this.guess = '';
     this.answer = 0;
@@ -132,7 +133,12 @@ Game.prototype.checkAnswer = function (answer) {
       this.removeCorrect();
     }
   } else {
-    this.askQuestion();
+    document.getElementById('wrong').textContent = ++this.numberWrong;
+    if (this.numberWrong > 4) {
+      this.failure();
+    } else {
+      this.askQuestion();
+    }
   }
 };
 Game.prototype.removeCorrect = function () {
@@ -141,6 +147,9 @@ Game.prototype.removeCorrect = function () {
 };
 Game.prototype.victory = function () {
   document.getElementById('main').textContent = "YOU WIN!!!!";
+};
+Game.prototype.failure = function () {
+  document.getElementById('main').innerHTML = '<h2>You fail trivia? That unpossible!</h2><p>Don\'t worry, I\'m sure you won\'t end up like Homer!</p> <img src="Xq9Mtxa.jpg"/>';
 };
 var simpsonsTrivia = new Game(questions);
 simpsonsTrivia.askQuestion();
