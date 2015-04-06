@@ -1,0 +1,103 @@
+{
+ "1": {
+   "question": "What's Principal Skinner's REAL name?",
+   "answers": ["Robert Underdunk Terwilliger", "Armin Tamzarian", "Lyle Lanley"],
+   "correct": 1
+ },
+ "2": {
+   "question": "Who voices Homer's half brother, Herbert Powell?",
+   "answers": ["Danny DeVito", "Phil Hartman", "Jon Lovitz"],
+   "correct": 0
+ },
+ "3": {
+   "question": "What is Sideshow Bob's son's name?",
+   "answers": ["Gianni", "Gino", "Giovanni"],
+   "correct": 1
+ },
+ "4": {
+   "question": "What is Homer Simpson's middle name?",
+   "answers": ["Jerry", "JoJo", "Jay"],
+   "correct": 2
+ },
+ "5": {
+   "question": "Why does Homer end up in a mental institution, where he meets
+   \"Michael Jackson\"?",
+   "answers": ["He wears a pink shirt to work", "He does a poor job as Mr. Burns' assistant", "He choked the boy ONE too many times"],
+   "correct": 0
+ },
+ "6": {
+   "question": "What's the name of the energy bar that Homer endorses?",
+   "answers": ["Lightspeed Energy Bar", "Buzz Energy Bar", "PowerSauce"],
+   "correct": 2
+ },
+ "7": {
+   "question": "What common garden item is Sideshow Bob's arch nemesis?",
+   "answers": ["Hoses", "Rakes", "Brooms"],
+   "correct": 1
+ },
+ "8": {
+   "question": "Who are the guest stars in the \"Lisa the Vegetarian\" episode?",
+   "answers": ["Paul and Linda McCartney", "Alec Baldwin and Kim Basinger", "Gillian Anderson and David Duchovny"],
+   "correct": 0
+ },
+ "9": {
+   "question": "Who has had a creepy unrequited crush on Marge since high school?",
+   "answers": ["Moe Syzslak", "Artie Ziff", "Seymour Skinner"],
+   "correct": 1
+ },
+ "10": {
+   "question": "What is Chief Wiggum's first name?",
+   "answers": ["Clancy", "Carlton", "Clarent"],
+   "correct": 0
+ },
+ "11": {
+   "question": "What is the name of Radioactive Man's sidekick?",
+   "answers": ["Toxic Avenger", "Radioactive Boy", "Fallout Boy"],
+   "correct": 2
+ },
+ "12": {
+   "question": "What is the secret ingredient in a Flaming Moe?",
+   "answers": ["Vodka", "Blueberry Syrup", "Cough Medicine"],
+   "correct": 2
+ },
+ "13": {
+   "question": "What is Marge's maiden name?",
+   "answers": ["Onassis", "Bouvier", "Kennedy"],
+   "correct": 1
+ },
+ "14": {
+   "question": "What is the name of the company owned by Homer's former boss Hank Scorpio",
+   "answers": ["Globex", "Scorpio Industries", "Compu-Global-Hyper-Net"],
+   "correct": 0
+ },
+ "15": {
+   "question": "What game company released a Simpson's game around the same time as The Simpsons Movie?",
+   "answers": ["Bethesda Softworks", "Blizzard-Activision", "Electronic Arts"],
+   "correct": 2
+ },
+ "16": {
+   "question": "What name does Homer have his legally changed to when a TV show steals his?",
+   "answers": ["Max Power", "Guy Incognito", "Ned Flanders"],
+   "correct": 0
+ },
+ "17": {
+   "question": "What drink is Homer disgusted by in the episode \"Homer vs New York\"?",
+   "answers": ["Clam Juice", "Goat's milk", "Mountain Dew"],
+   "correct": 2
+ },
+ "18": {
+   "question": "What was the original color of Bart's shirt?",
+   "answers": ["Blue", "Orange", "Red"],
+   "correct": 0
+ },
+ "19": {
+   "question": "They have ________ on computers now? - Homer Simpson",
+   "answers": ["Games", "The Internet", "TV"],
+   "correct": 1
+ },
+ "20": {
+   "question": "Which friend does homer have to beat out so he can go on to be the first \"Average Joe\" in space?",
+   "answers": ["Moe", "Barney", "Lenny"],
+   "correct": 1
+ }
+}
