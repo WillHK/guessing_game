@@ -131,6 +131,8 @@ Game.prototype.checkAnswer = function (answer) {
     } else {
       this.removeCorrect();
     }
+  } else {
+    this.askQuestion();
   }
 };
 Game.prototype.removeCorrect = function () {

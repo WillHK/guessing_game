@@ -1,3 +1,19 @@
 button {
-
+  margin: 15px;
+}
+@font-face {
+    font-family: Simpsonsfont;
+    src: url('Simpsonfont.ttf');
+  }
+#tv {
+  height: 500px;
+  width: 540px;
+  background-image: url("http://www.simpsoncrazy.com/content/pictures/onetimers/simpsons-tv.png");
+}
+#question {
+  float: none;
+  font-family: Simpsonsfont;
+  color: yellow;
+  font-size: 1.5em;
+  padding: 150px 100px 200px 75px;
 }
