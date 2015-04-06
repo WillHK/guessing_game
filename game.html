@@ -16,7 +16,7 @@
     this.questionNumber;
   }
   Game.prototype.randomQuestion = function() {
-    return Math.floor(Math.random() * this.questions.length);
+   return Math.floor(Math.random() * this.questions.length);
   }
   Game.prototype.askQuestion = function() {
     this.guess = prompt(this.questions[this.questionNumber], "Enter your answer here!");
